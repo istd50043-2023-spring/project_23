@@ -520,7 +520,10 @@ The following code implements a simple selection query over this file. This code
 ```
 package simpledb;
 import java.io.*;
-
+import simpledb.common.*;
+import simpledb.storage.*;
+import simpledb.execution.*;
+import simpledb.transaction.*;
 public class test {
 
     public static void main(String[] argv) {
