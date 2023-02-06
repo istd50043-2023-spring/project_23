@@ -105,8 +105,8 @@ should *block*, waiting for that lock to become available (i.e., be
 released by another transaction running in a different thread).
 Be careful about race conditions in your lock implementation --- think about
 how concurrent invocations to your lock may affect the behavior. 
-(you way wish to read about <a href="http://docs.oracle.com/javase/tutorial/essential/concurrency/sync.html">
-Synchronization</a> in Java).
+
+(You way wish to read about <a href="http://docs.oracle.com/javase/tutorial/essential/concurrency/sync.html"> Synchronization</a> and <a href="https://winterbe.com/posts/2015/04/30/java8-concurrency-tutorial-synchronized-locks-examples/"> Lock</a> in Java).
 
 ***
 
